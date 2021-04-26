@@ -12,7 +12,11 @@ npm run serve
 
 ### Compiles and minifies for production
 ```
-npm run build
+npm run build - creates a dist folder (deployable artifact)
+
+- To run in local follow below process:
+    -> npm install -g serve
+    -> serve -s dist
 ```
 
 ### Customize configuration
